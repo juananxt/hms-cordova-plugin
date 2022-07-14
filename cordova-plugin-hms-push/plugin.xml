@@ -33,7 +33,7 @@
 	<js-module name="CordovaRemoteMessage" src="www/CordovaRemoteMessage.js" />
 	<js-module name="utils" src="www/utils.js" />
 	<platform name="android">
-		<dependency id="cordova-plugin-androidx" version="3.0.0" />
+		<dependency id="cordova-plugin-androidx" version="1.0.2" />
 		<hook type="after_plugin_install" src="hooks/after_plugin_install.js" />
 		<hook type="before_plugin_uninstall" src="hooks/before_plugin_uninstall.js" />
 		<config-file target="config.xml" parent="/*">
